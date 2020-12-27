@@ -13,6 +13,7 @@ function createMessage(){
     fortuneArray=['Geld', 'Glück', 'Gesundheit', 'Weisheit', 'Liebe', 'Freude', 'ein Lächeln', 'einer Chance']
 
     console.log('Am ' + new Intl.DateTimeFormat('de').format(date) + ' wird das Leben Dir ' + fortuneArray[Math.floor(Math.random()*8)] + ' schenken!')
+    //A new comment
     
 
     
